@@ -7,7 +7,6 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
 <table border="1" align="center">
     <tr>
         <th>Sl. No</th>
-        <th>Section</th>
         <th>Topic</th>
         <th>Course</th>
         <th>Repository/Folder</th>
@@ -16,7 +15,6 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
     </tr>
     <tr>
         <td>1</td>
-        <td>Intro CS</td>
         <td>Introduction to Programming</td>
         <td><a href="https://www.py4e.com/lessons">Python for Everybody</a></td>
         <td><a href="./intro-cs/intro-to-programming/python-for-everybody">Folder</a></td>
