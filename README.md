@@ -22,24 +22,24 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
 | 14 | Core Math | [Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about) | | | |
 | 15 | CS Tools | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | | | |
 | 16 | Core Systems | [Build a Modern Computer from First Principles: From Nand to Tetris](https://www.coursera.org/learn/build-a-computer) | | | |
-| 16 | Core Systems | [Build a Modern Computer from First Principles: From Nand to Tetris Part 2](https://www.coursera.org/learn/nand2tetris2) | | | |
-| 17 | Core Systems | [Operating Systems: Three Easy Pieces](https://github.com/ossu/computer-science/blob/master/coursepages/ostep/README.md) | | | |
-| 18 | Core Systems | [Computer Networking: A Top-Down approach](http://gaia.cs.umass.edu/kurose_ross/online_lectures.htm) | | | |
-| 19 | Core Theory | [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer) | | | |
-| 20 | Core Theory | [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures) | | | |
-| 21 | Core Theory | [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy) | | | |
-| 22 | Core Theory | [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete) | | | |
-| 23 | Core Security | [Cybersecurity Fundamentals](https://www.edx.org/course/cybersecurity-fundamentals) | | | |
-| 24 | Core Security | [Principles of Secure Coding](https://www.coursera.org/learn/secure-coding-principles) | | | |
-| 25 | Core Security | [Identifying Security Vulnerabilities](https://www.coursera.org/learn/identifying-security-vulnerabilities) | | | |
-| 26 | Core Security | [Identifying Security Vulnerabilities in C/C++ Programming](https://www.coursera.org/learn/identifying-security-vulnerabilities-c-programming) | | | |
-| 27 | Core Security | [Exploring and Securing Vulnerabilities in Java Applications](https://www.coursera.org/learn/exploiting-securing-vulnerabilities-java-applications) | | | |
-| 28 | Core Applications | [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory) | | | |
-| 29 | Core Applications | [Databases: Relational Databases and SQL](https://www.edx.org/course/databases-5-sql) | | | |
-| 30 | Core Applications | [Databases: Semistructured Data](https://www.edx.org/course/semistructured-data) | | | |
-| 31 | Core Applications | [Machine Learning](https://www.edx.org/course/semistructured-data) | | | |
-| 32 | Core Applications | [Computer Graphics](https://www.edx.org/course/computer-graphics-2) | | | |
-| 33 | Core Applications | [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction) | | | |
-| 34 | Core Ethics | [Ethics, Technology and Enginnering](https://www.coursera.org/learn/ethics-technology-engineering) | | | |
-| 35 | Core Ethics | [Introduction to Intellectual Property](https://www.coursera.org/learn/introduction-intellectual-property) | | | |
-| 36 | Core Ethics | [Data Privacy Fundamentals](https://www.coursera.org/learn/northeastern-data-privacy) | | | |
+| 17 | Core Systems | [Build a Modern Computer from First Principles: From Nand to Tetris Part 2](https://www.coursera.org/learn/nand2tetris2) | | | |
+| 18 | Core Systems | [Operating Systems: Three Easy Pieces](https://github.com/ossu/computer-science/blob/master/coursepages/ostep/README.md) | | | |
+| 19 | Core Systems | [Computer Networking: A Top-Down approach](http://gaia.cs.umass.edu/kurose_ross/online_lectures.htm) | | | |
+| 20 | Core Theory | [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer) | | | |
+| 21 | Core Theory | [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures) | | | |
+| 22 | Core Theory | [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy) | | | |
+| 23 | Core Theory | [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete) | | | |
+| 24 | Core Security | [Cybersecurity Fundamentals](https://www.edx.org/course/cybersecurity-fundamentals) | | | |
+| 25 | Core Security | [Principles of Secure Coding](https://www.coursera.org/learn/secure-coding-principles) | | | |
+| 26 | Core Security | [Identifying Security Vulnerabilities](https://www.coursera.org/learn/identifying-security-vulnerabilities) | | | |
+| 27 | Core Security | [Identifying Security Vulnerabilities in C/C++ Programming](https://www.coursera.org/learn/identifying-security-vulnerabilities-c-programming) | | | |
+| 28 | Core Security | [Exploring and Securing Vulnerabilities in Java Applications](https://www.coursera.org/learn/exploiting-securing-vulnerabilities-java-applications) | | | |
+| 29 | Core Applications | [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory) | | | |
+| 30 | Core Applications | [Databases: Relational Databases and SQL](https://www.edx.org/course/databases-5-sql) | | | |
+| 31 | Core Applications | [Databases: Semistructured Data](https://www.edx.org/course/semistructured-data) | | | |
+| 32 | Core Applications | [Machine Learning](https://www.edx.org/course/semistructured-data) | | | |
+| 33 | Core Applications | [Computer Graphics](https://www.edx.org/course/computer-graphics-2) | | | |
+| 34 | Core Applications | [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction) | | | |
+| 35 | Core Ethics | [Ethics, Technology and Enginnering](https://www.coursera.org/learn/ethics-technology-engineering) | | | |
+| 36 | Core Ethics | [Introduction to Intellectual Property](https://www.coursera.org/learn/introduction-intellectual-property) | | | |
+| 37 | Core Ethics | [Data Privacy Fundamentals](https://www.coursera.org/learn/northeastern-data-privacy) | | | |
