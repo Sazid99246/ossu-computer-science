@@ -43,3 +43,35 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
 | 35 | Core Ethics | [Ethics, Technology and Enginnering](https://www.coursera.org/learn/ethics-technology-engineering) | | | |
 | 36 | Core Ethics | [Introduction to Intellectual Property](https://www.coursera.org/learn/introduction-intellectual-property) | | | |
 | 37 | Core Ethics | [Data Privacy Fundamentals](https://www.coursera.org/learn/northeastern-data-privacy) | | | |
+| 38 | Advanced Programming | [Parallel Programming](https://www.coursera.org/learn/scala-parallel-programming) | | | |
+| 39 | Advanced Programming | [Compilers](https://www.edx.org/course/compilers) | | | |
+| 40 | Advanced Programming | [Introduction to Haskell](https://www.seas.upenn.edu/~cis194/fall16/) | | | |
+| 41 | Advanced Programming | [Learn Prolog Now](https://www.let.rug.nl/bos/lpn//lpnpage.php?pageid=online) | | | |
+| 42 | Avanced Programming | [Software Debugging](https://www.udacity.com/course/software-debugging--cs259) | | | |
+| 43 | Advanced Programming | [Software Testing](https://www.udacity.com/course/software-testing--cs258) | | | |
+| 44 | Advanced Systems | [Computation Structures 1: Digital Circuits](https://learning.edx.org/course/course-v1:MITx+6.004.1x_3+3T2016) | | | |
+| 45 | Advanced Systems | [Computation Structures 2: Computer Architecture](https://learning.edx.org/course/course-v1:MITx+6.004.2x+3T2015) | | | |
+| 46 | Advanced Systems | [Computation Structures 3: Computer Organization](https://learning.edx.org/course/course-v1:MITx+6.004.3x_2+1T2017)
+| 47 | Advanced Theory | [Theory of Computation](http://aduni.org/courses/theory/index.php?view=cw) | | | |
+| 48 | Advacned Theory | [Computataional Geometry](https://www.edx.org/course/computational-geometry) | | | |
+| 49 | Advanced Theory | [Game Theory](https://www.coursera.org/learn/game-theory-1) | | | |
+| 50 | Advanced Information Security | [Web Security Fundamentals](https://www.edx.org/course/web-security-fundamentals) | | | |
+| 51 | Advanced Information Security | [Security Governance & Compilance](https://www.coursera.org/learn/security-governance-compliance) | | | |
+| 52 | Advanced Information Security | [Digital Forensics Concepts](https://www.coursera.org/learn/digital-forensics-concepts) | | | |
+| 53 | Advanced Information Security | [Secure Software Development: Requirements, Design, and Reuse](https://www.edx.org/course/secure-software-development-requirements-design-and-reuse) | | | |
+| 54 | Advacned Information Security | [Secure Software Development: Implementation](https://www.edx.org/course/secure-software-development-implementation) | | | |
+| 55 | Advanced Information Security | [Secure Software Development: Verification and More Specialized Topics](https://www.edx.org/course/secure-software-development-verification-and-more-specialized-topics) | | | |
+| 56 | Advanced Math | [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | | | |
+| 57 | Advacned Math | [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | | | |
+| 58 | Advanced Math | [Introduction to Numerical Methods](https://ocw.mit.edu/courses/mathematics/18-335j-introduction-to-numerical-methods-spring-2019/index.htm) | | | |
+| 59 | Advanced Math | [Introduction to Formal Logic](https://forallx.openlogicproject.org/) | | | |
+| 60 | Advanced Math | [Probability](https://projects.iq.harvard.edu/stat110/home) | || | |
+| 61 | Final Project | [Fullstack Open](https://fullstackopen.com/en/) | | | |
+| 62 | Final Project | [Modern Robotics (Specialization)](https://www.coursera.org/specializations/modernrobotics) | | | |
+| 63 | Final Project | [Data Mining (Specialization)](https://www.coursera.org/specializations/data-mining) | | | |
+| 64 | Final Project | [Big Data (Specialization)](https://www.coursera.org/specializations/big-data) | | | |
+| 65 | Final Project | [Internet of Things(Specializtion)](https://www.coursera.org/specializations/internet-of-things)
+| 66 | Final Project | [Cloud Computing(Specialization)](https://www.coursera.org/specializations/cloud-computing) | | | |
+| 67 | Final Project | [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | | | |
+| 68 | Final Project | [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | | | |
+| 69 | Final Projct | [Game Design and Development with Unity 2020 (Specialization)](https://www.coursera.org/specializations/game-design-and-development) | | | |
