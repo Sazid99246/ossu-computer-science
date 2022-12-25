@@ -103,7 +103,7 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
     </tr>
     <tr>
         <td>13</td>
-        <td><a href="ttps://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.3x+1T2020/about">Calculus 1C: Coordinate Systems & Infinite Series</a></td>
+        <td><a href="https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.3x+1T2020/about">Calculus 1C: Coordinate Systems & Infinite Series</a></td>
         <td></td>
         <td></td>
         <td></td>
