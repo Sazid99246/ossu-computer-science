@@ -7,8 +7,11 @@
         <th>Task/s</th>
     </tr>
     <tr>
-        <td>0</td>
-        <td>Installing Python</td>
-        <td><a href="./chapter0/hello.py">Installation Screen shots</a></td>
+        <td rowspan="2">0</td>
+        <td rowspan="2">Installing Python</td>
+        <td><a href="./chapter0/code.png">Code</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter0/terminal.png">Terminal</a></td>
     </tr>
 </table>
