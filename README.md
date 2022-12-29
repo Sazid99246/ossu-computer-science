@@ -241,7 +241,7 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
     </tr>
     <tr>
         <td>32</td>
-        <td><a href="https://www.edx.org/course/semistructured-data">Machine Learning</a></td>
+        <td><a href="https://www.coursera.org/specializations/machine-learning-introduction">Machine Learning</a></td>
         <td></td>
         <td></td>
         <td></td>
