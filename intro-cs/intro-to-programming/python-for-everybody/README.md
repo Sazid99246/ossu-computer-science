@@ -4,14 +4,21 @@
     <tr>
         <th>Chapter No.</th>
         <th>Name</th>
-        <th>Task/s</th>
+        <th>Source code and assignments</th>
     </tr>
     <tr>
-        <td rowspan="2">0</td>
-        <td rowspan="2">Installing Python</td>
-        <td><a href="./chapter0/code.png">Code</a></td>
+        <td>0</td>
+        <td>Installing Python</td>
+        <td><a href="./chapter0">Chapter 0</a></td>
     </tr>
     <tr>
-        <td><a href="./chapter0/terminal.png">Terminal</a></td>
+        <td>1</td>
+        <td>Why Program?</td>
+        <td><a href="./chapter1">Chapter 1</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Variables, expressions and Statements</td>
+        <td><a href="./chapter2">Chapter 2</a></td>
     </tr>
 </table>
