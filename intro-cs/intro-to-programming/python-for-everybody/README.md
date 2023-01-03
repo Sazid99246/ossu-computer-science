@@ -21,4 +21,9 @@
         <td>Variables, expressions and Statements</td>
         <td><a href="./chapter2">Chapter 2</a></td>
     </tr>
+    <tr>
+        <td>3</td>
+        <td>Conditional Executions</td>
+        <td><a href="./chapter3">Chapter 3</a></td>
+    </tr>
 </table>
