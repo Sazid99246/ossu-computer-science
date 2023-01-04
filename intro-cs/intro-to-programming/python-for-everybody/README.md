@@ -26,4 +26,9 @@
         <td>Conditional Executions</td>
         <td><a href="./chapter3">Chapter 3</a></td>
     </tr>
+    <tr>
+        <td>4</td>
+        <td>Functions</td>
+        <td><a href="./chapter4">Chapter 4</a></td>
+    </tr>
 </table>
