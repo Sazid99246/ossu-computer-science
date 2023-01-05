@@ -31,4 +31,9 @@
         <td>Functions</td>
         <td><a href="./chapter4">Chapter 4</a></td>
     </tr>
+    <tr>
+        <td>5</td>
+        <td>Iterations</td>
+        <td><a href="./chapter5">Chapter 5</a></td>
+    </tr>
 </table>

@@ -7,7 +7,7 @@ def computePay(tmp_hours, tmp_rate):
 
 def check_for_float(input1):
     try:
-        val = float(input1)                # Only allows input floats
+        val = float(input1)
         return val
     except ValueError:
         print('Error, please enter numeric input')
