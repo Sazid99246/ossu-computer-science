@@ -36,4 +36,9 @@
         <td>Iterations</td>
         <td><a href="./chapter5">Chapter 5</a></td>
     </tr>
+    <tr>
+        <td>6</td>
+        <td>Strings</td>
+        <td><a href="./chapter6">Chapter 6</a></td>
+    </tr>
 </table>
