@@ -41,4 +41,9 @@
         <td>Strings</td>
         <td><a href="./chapter6">Chapter 6</a></td>
     </tr>
+    <tr>
+        <td>7</td>
+        <td>Files</td>
+        <td><a href="./chapter7">CHapter 7</a></td>
+    </tr>
 </table>
