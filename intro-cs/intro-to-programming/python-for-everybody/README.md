@@ -1,12 +1,13 @@
 <h1 align="center">Python for Everybody</h1>
 
-<h2>My Achievements</h2>
+<h2 align="center">My Achievements</h2>
 <h3>Badges</h3>
 <img src="./images/enroll.png">
 <img src="./images/introductory.png">
 <img src="./images/coding.png">
-
-<h2>Solution to the assignments</h2>
+<br>
+<br>
+<h2 align="center">Solution to the assignments</h2>
 <table border="1" align="center">
     <tr>
         <th>Chapter No.</th>
@@ -91,5 +92,25 @@
     </tr>
     <tr>
         <td><a href="./chapter7/exercise-7.3.py">Exercise-7.3</a></td>
+    </tr>
+    <tr>
+        <td rowspan="6">8</td>
+        <td rowspan="6">Lists</td>
+        <td><a href="./chapter8/exercise-8.1.py">Exercise-8.1</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter8/exercise-8.2.py">Exercise-8.2</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter8/exercise-8.3.py">Exercise-8.3</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter8/exercise-8.4.py">Exercise-8.4</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter8/exercise-8.5.py">Exercise-8.5</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter8/exercise-8.6.py">Exercise-8.6</a></td>
     </tr>
 </table>
