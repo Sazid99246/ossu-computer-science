@@ -1,4 +1,4 @@
-file = open("mbox-short.txt")
+file = open("assets/py4e/mbox-short.txt")
 line_count = 0
 for line in file:
     words = line.split()

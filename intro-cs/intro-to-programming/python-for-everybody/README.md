@@ -113,4 +113,21 @@
     <tr>
         <td><a href="./chapter8/exercise-8.6.py">Exercise-8.6</a></td>
     </tr>
+    <tr>
+        <td rowspan="5">9</td>
+        <td rowspan="5">Dictionaries</td>
+        <td><a href="./chapter9/exercise-9.1.py">Exercise-9.1</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter9/exercise-9.2.py">Exercise-9.2</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter9/exercise-9.3.py">Exercise-9.3</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter9/exercise-9.4.py">Exercise-9.4</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter9/exercise-9.5.py">Exercise-9.5</a></td>
+    </td>
 </table>

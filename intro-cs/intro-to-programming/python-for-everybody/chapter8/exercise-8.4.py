@@ -1,4 +1,4 @@
-file = open("romeo.txt")
+file = open("assets/py4e/mbox-short.txt")
 myList = []
 for line in file:
     words = line.split()
