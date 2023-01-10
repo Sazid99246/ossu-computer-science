@@ -440,7 +440,7 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
         <td></td>
         <td></td>
         <td></td>
-    </tr>>
+    </tr>
     <tr>
         <td>60</td>
         <td><a href="https://projects.iq.harvard.edu/stat110/home">Probability</a></td>
