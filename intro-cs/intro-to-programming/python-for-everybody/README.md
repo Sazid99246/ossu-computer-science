@@ -5,6 +5,7 @@
 <img src="./images/enroll.png">
 <img src="./images/introductory.png">
 <img src="./images/coding.png">
+<img src="./images/data_structure.png">
 <br>
 <br>
 <h2 align="center">Solution to the assignments</h2>
@@ -130,4 +131,12 @@
     <tr>
         <td><a href="./chapter9/exercise-9.5.py">Exercise-9.5</a></td>
     </td>
+    <tr>
+        <td rowspan="2">10</td>
+        <td rowspan="2">Tuples</td>
+        <td><a href="./chapter10/exercise-10.1.py">Exercise-10.1</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter10/exercise-10.2.py">Exercise-10.2</a></td>
+    </tr>
 </table>
