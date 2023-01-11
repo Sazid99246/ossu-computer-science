@@ -139,4 +139,15 @@
     <tr>
         <td><a href="./chapter10/exercise-10.2.py">Exercise-10.2</a></td>
     </tr>
+    <tr>
+        <td rowspan="3">11</td>
+        <td rowspan="3">Regular Expressions</td>
+        <td><a href="./chapter11/exercise-11.1.py">Exercise-11.1</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter11/exercise-11.2.py">Exercise-11.2</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter11/exercise-11.3.py">Exercise-11.3</a></td>
+    </tr>
 </table>
