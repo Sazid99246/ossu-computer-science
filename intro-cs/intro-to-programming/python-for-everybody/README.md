@@ -6,6 +6,7 @@
 <img src="./images/introductory.png">
 <img src="./images/coding.png">
 <img src="./images/data_structure.png">
+<img src="./images/network_data.png">
 <br>
 <br>
 <h2 align="center">Solution to the assignments</h2>
@@ -149,5 +150,27 @@
     </tr>
     <tr>
         <td><a href="./chapter11/exercise-11.3.py">Exercise-11.3</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3">12</td>
+        <td rowspan="3">Network Programming</td>
+        <td><a href="./chapter12/web_exercise-12.1.py">Exercise-12.1</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter12/web_exercise-12.2.py">Exercise-12.2</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter12/web_exercise-12.3.py">Exercise-12.3</a></td>
+    </tr>
+        <tr>
+        <td rowspan="3">13</td>
+        <td rowspan="3">Using Web Services</td>
+        <td><a href="./chapter13/exercise-13.1.py">Exercise-13.1</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter13/exercise-13.2.py">Exercise-13.2</a></td>
+    </tr>
+    <tr>
+        <td><a href="./chapter13/exercise-13.3.py">Exercise-12.3</a></td>
     </tr>
 </table>
