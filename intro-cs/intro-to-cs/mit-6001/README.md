@@ -40,4 +40,9 @@
     <tr>
         <td><a href="./finger-exercises/chapter2/finding_largest_odd_among_ten_inteegers.py">finding_largest_odd_among_ten_numbers</a></td>
     </tr>
+    <tr>
+        <td>03</td>
+        <td>Some Simple Numerical Programs</td>
+        <td><a href="./finger-exercises/chapter3\/sum_of_three_numbers.py">some_of_three_numbers</a></td>
+    </tr>
 </table>
