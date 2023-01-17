@@ -1,13 +1,4 @@
 <h1 align="center">Python for Everybody</h1>
-
-<h2 align="center">My Achievements</h2>
-<h3>Badges</h3>
-<img src="./images/enroll.png">
-<img src="./images/introductory.png">
-<img src="./images/coding.png">
-<img src="./images/data_structure.png">
-<img src="./images/network_data.png">
-<br>
 <br>
 <h2 align="center">Solution to the assignments</h2>
 <table border="1" align="center">
