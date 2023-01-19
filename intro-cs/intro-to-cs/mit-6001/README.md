@@ -8,17 +8,17 @@
     </tr>
     <tr>
         <td>00</td>
-        <td><a href="./pset0/ps0.py">Problem 0</a></td>
+        <td><a href="./psets/pset0/ps0.py">Problem 0</a></td>
     </tr>
     <tr>
         <td rowspan="3">01</td>
-        <td><a href="./pset1/ps1a.py">Problem 1A</a></td>
+        <td><a href="./psets/pset1/ps1a.py">Problem 1A</a></td>
     </tr>
     <tr>
-        <td><a href="./pset1/ps1b.py">Problem 1B</a></td>
+        <td><a href="./psets/pset1/ps1b.py">Problem 1B</a></td>
     </tr>
     <tr>
-        <td><a href="./pset1/ps1c.py">Problem 1C</a></td>
+        <td><a href="./psets/pset1/ps1c.py">Problem 1C</a></td>
     </tr>
 </table>
 <br>
