@@ -1,7 +1,7 @@
 # Problem Set 2, hangman.py
-# Name: 
+# Name: Sheikh MD Sazidul Islam
 # Collaborators:
-# Time spent:
+# Time spent: Approximately 2 days
 
 # Hangman Game
 # -----------------------------------
