@@ -20,6 +20,10 @@
     <tr>
         <td><a href="./psets/pset1/ps1c.py">Problem 1C</a></td>
     </tr>
+    <tr>
+        <td>02</td>
+        <td><a href="./psets/pset2/hangman.py">hangman</a></>
+    </tr>
 </table>
 <br>
 <h2 align="center">Solution to the Finger Exercises</h2>
@@ -41,8 +45,16 @@
         <td><a href="./finger-exercises/chapter2/finding_largest_odd_among_ten_inteegers.py">finding_largest_odd_among_ten_numbers</a></td>
     </tr>
     <tr>
-        <td>03</td>
-        <td>Some Simple Numerical Programs</td>
+        <td rowspan="2">03</td>
+        <td rowspan="2">Some Simple Numerical Programs</td>
         <td><a href="./finger-exercises/chapter3\/sum_of_three_numbers.py">some_of_three_numbers</a></td>
+    </tr>
+    <tr>
+        <td><a href="./finger-exercises/chapter3/root_pow.py">root_power</a></td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>Functions, Scoping and Abstraction</td>
+        <td><a href="./finger-exercises/chapter4/in.py">in</a></td>
     </tr>
 </table>
