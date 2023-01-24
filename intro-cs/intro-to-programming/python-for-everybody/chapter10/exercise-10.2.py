@@ -1,24 +1,22 @@
-dictionary_hours = dict()
-lst = list()
+name = input("Enter file:")
+if len(name) < 1 : name = "mbox-short.txt"
+handle = open(name)
 
-fname = input('Enter file name: ')
-try:
-    fhand = open(fname)
-except FileNotFoundError:
-    print('File cannot be opened:', fname)
-    quit()
+hcount = dict()                                     #create empty dictionary
+hlst = []                                           #create empty list
 
-for line in fhand:
+for line in handle: 
     words = line.split()
-    if len(words) < 5 or words[0] != 'From':
+    if len(words) > 2 and words[0] == 'From':       #Select lines with 'From'
+        hr = words[5].split(':')                    #Select hour (5th index) and split string with colon
+        hcount[hr[0]] = hcount.get(hr[0], 0) + 1    #increase count for each hour
+    else:
         continue
 
-    col_pos = words[5].find(':')
-    hour = words[5][:col_pos]
-    if hour not in dictionary_hours:
-        dictionary_hours[hour] = 1      # First entry
-    else:
-        dictionary_hours[hour] += 1     # Additional counts
+for k,v in hcount.items():                           #k = hour, v = count
+    hlst.append((k,v))                               #append tuples to list
 
-for key, val in list(dictionary_hours.items()):
-    lst.append((key, val))
+hlst.sort()                                         #sort list by hour
+for k,v in hlst:                                    #loop through list of tuples
+    print(k,v)                                      #print counts sorted by hour
+Footer
