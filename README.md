@@ -21,7 +21,7 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
         <td>2</td>
         <td>Introduction to Computer Science</td>
         <td><a href="https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/">Introduction to Computer Science and Programming using Python</a></td>
-        <td></td>
+        <td><a href="./intro-cs/intro-to-cs/mit-6001">mit-60001</a></td>
     </tr>
     <tr>
         <td>3</td>

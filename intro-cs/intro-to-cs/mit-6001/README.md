@@ -22,7 +22,21 @@
     </tr>
     <tr>
         <td>02</td>
-        <td><a href="./psets/pset2/hangman.py">hangman</a></>
+        <td><a href="./psets/pset2/hangman.py">Hangman</a></>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td><a href="./psets/pset3/ps3.py">Problem set 3</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3">04</td>
+        <td><a href="./psets/pset4/ps4a.py">Problem 4A</a></td>
+    </tr>
+    <tr>
+        <td><a href="./psets/pset4/ps4b.py">Problem 4B</a></td>
+    </tr>
+    <tr>
+        <td><a href="./psets/pset4/ps4c.py">Problem 4C</a></td>
     </tr>
 </table>
 <br>
