@@ -182,25 +182,98 @@ class DescriptionTrigger(PhraseTrigger):
 
 # Problem 5
 # TODO: TimeTrigger
-# Constructor:
-#        Input: Time has to be in EST and in the format of "%d %b %Y %H:%M:%S".
-#        Convert time from string to a datetime before saving it as an attribute.
+class TimeTrigger(Trigger):
+    def __init__(self,time_check):
+        self.time_check = datetime.strptime(time_check, "%d %b %Y %H:%M:%S")
 
 # Problem 6
 # TODO: BeforeTrigger and AfterTrigger
 
+class BeforeTrigger(TimeTrigger):
+    def __init__(self, time_string):
+        TimeTrigger.__init__(self, time_string)
+        
+    def evaluate(self, story):
+        story_time = story.get_pubdate()
+        time_check = self.time_check
+        if self.time_check.year > story_time.year:
+            return True
+        elif self.time_check.year < story_time.year:
+            return False
+        else:
+            
+            if self.time_check.month > story_time.month:
+                return True
+            elif self.time_check.month < story_time.month:
+                return False
+            else:
+                story_time_in_sec = story_time.second + \
+                60*story_time.minute + 3600*story_time.hour + \
+                86400*story_time.day
+                
+                time_check_in_sec = time_check.second + \
+                60*time_check.minute + 3600*time_check.hour + \
+                86400*time_check.day
+                return story_time_in_sec < time_check_in_sec
+            
+class AfterTrigger(TimeTrigger):
+    def __init__(self, time_string):
+        TimeTrigger.__init__(self, time_string)
+        
+    def evaluate(self, story):
+        story_time = story.get_pubdate()
+        time_check = self.time_check
+        
+        if self.time_check.year < story_time.year:
+            return True
+        elif self.time_check.year > story_time.year:
+            return False
+        else:
+            
+            if self.time_check.month < story_time.month:
+                return True
+            elif self.time_check.month > story_time.month:
+                return False
+            else:
+                story_time_in_sec = story_time.second + \
+                60*story_time.minute + 3600*story_time.hour + \
+                86400*story_time.day
+                
+                time_check_in_sec = time_check.second + \
+                60*time_check.minute + 3600*time_check.hour + \
+                86400*time_check.day
+                return story_time_in_sec > time_check_in_sec
 
 # COMPOSITE TRIGGERS
 
 # Problem 7
 # TODO: NotTrigger
+class NotTrigger(Trigger):
+    def __init__(self, trigger):
+        self.trigger = trigger
+
+    def evaluate(self, story):
+        return not self.trigger.evaluate(story)
 
 # Problem 8
 # TODO: AndTrigger
+class AndTrigger(Trigger):
+    def __init__(self, trig1, trig2):
+        self.trig1 = trig1
+        self.trig2 = trig2
+    
+    def evaluate(self, story):
+        return self.trig1.evaluate(story) and self.trig2.evaluate(story)
 
 # Problem 9
 # TODO: OrTrigger
-
+class OrTrigger(Trigger):
+    def __init__(self, trig1, trig2):
+        self.trig1 = trig1
+        self.trig2 = trig2
+    
+    def evaluate(self, story):
+        return self.trig1.evaluate(story) or self.trig2.evaluate(story)
 
 #======================
 # Filtering
