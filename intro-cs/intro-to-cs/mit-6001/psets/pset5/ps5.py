@@ -55,17 +55,18 @@ def process(url):
 # Problem 1
 
 # TODO: NewsStory
-class NewsStory:
+    
+class NewsStory(object):
     def __init__(self, guid, title, description, link, pubdate):
         self.guid = guid
         self.title = title
         self.description = description
         self.link = link
         self.pubdate = pubdate
-    
+        
     def get_guid(self):
         return self.guid
-
+    
     def get_title(self):
         return self.title
     
@@ -77,6 +78,10 @@ class NewsStory:
     
     def get_pubdate(self):
         return self.pubdate
+    
+    
+    
+
 
 #======================
 # Triggers
@@ -167,21 +172,25 @@ class TitleTrigger(PhraseTrigger):
         text = story.get_title()
         return self.is_phrase_in(text)
 
-
 # Problem 4
 # TODO: DescriptionTrigger
+
 class DescriptionTrigger(PhraseTrigger):
     def __init__(self, phrase):
         PhraseTrigger.__init__(self, phrase)
-    
+        
     def evaluate(self, story):
         text = story.get_description()
         return self.is_phrase_in(text)
-
+    
 # TIME TRIGGERS
 
 # Problem 5
 # TODO: TimeTrigger
+# Constructor:
+#        Input: Time has to be in EST and in the format of "%d %b %Y %H:%M:%S".
+#        Convert time from string to a datetime before saving it as an attribute.
+
 class TimeTrigger(Trigger):
     def __init__(self,time_check):
         self.time_check = datetime.strptime(time_check, "%d %b %Y %H:%M:%S")
@@ -196,15 +205,21 @@ class BeforeTrigger(TimeTrigger):
     def evaluate(self, story):
         story_time = story.get_pubdate()
         time_check = self.time_check
+#        print('story time',story_time)
+#        print('time_check', time_check)
         if self.time_check.year > story_time.year:
+#            print('year true')
             return True
         elif self.time_check.year < story_time.year:
+#            print('year false')
             return False
         else:
             
             if self.time_check.month > story_time.month:
+#                print('month true')
                 return True
             elif self.time_check.month < story_time.month:
+#                print('month false')
                 return False
             else:
                 story_time_in_sec = story_time.second + \
@@ -214,6 +229,8 @@ class BeforeTrigger(TimeTrigger):
                 time_check_in_sec = time_check.second + \
                 60*time_check.minute + 3600*time_check.hour + \
                 86400*time_check.day
+#                print('story_time_in_sec',story_time_in_sec)
+#                print('time_check_in_sec',time_check_in_sec)
                 return story_time_in_sec < time_check_in_sec
             
 class AfterTrigger(TimeTrigger):
@@ -242,39 +259,44 @@ class AfterTrigger(TimeTrigger):
                 time_check_in_sec = time_check.second + \
                 60*time_check.minute + 3600*time_check.hour + \
                 86400*time_check.day
+                
+                #print('story_time_in_sec',story_time_in_sec)
+                #print('time_check_in_sec',time_check_in_sec)
                 return story_time_in_sec > time_check_in_sec
-
+        
 # COMPOSITE TRIGGERS
 
 # Problem 7
 # TODO: NotTrigger
+                
 class NotTrigger(Trigger):
-    def __init__(self, trigger):
+    def __init__(self,trigger):
         self.trigger = trigger
-
+        
     def evaluate(self, story):
         return not self.trigger.evaluate(story)
 
 # Problem 8
 # TODO: AndTrigger
+
 class AndTrigger(Trigger):
-    def __init__(self, trig1, trig2):
+    def __init__(self,trig1,trig2):
         self.trig1 = trig1
         self.trig2 = trig2
-    
+        
     def evaluate(self, story):
         return self.trig1.evaluate(story) and self.trig2.evaluate(story)
-
 # Problem 9
 # TODO: OrTrigger
+
 class OrTrigger(Trigger):
-    def __init__(self, trig1, trig2):
+    def __init__(self,trig1,trig2):
         self.trig1 = trig1
         self.trig2 = trig2
-    
+        
     def evaluate(self, story):
         return self.trig1.evaluate(story) or self.trig2.evaluate(story)
-
+    
 #======================
 # Filtering
 #======================
@@ -286,10 +308,16 @@ def filter_stories(stories, triggerlist):
 
     Returns: a list of only the stories for which a trigger in triggerlist fires.
     """
-    # TODO: Problem 10
-    # This is a placeholder
-    # (we're just returning all the stories, with no filtering)
-    return stories
+    filtered_stories = []
+    
+    for story in stories:
+        
+        for trigger in triggerlist:
+            if trigger.evaluate(story):
+                filtered_stories += [story]
+                break
+        
+    return filtered_stories
 
 
 
@@ -327,15 +355,15 @@ def main_thread(master):
     # A sample trigger list - you might need to change the phrases to correspond
     # to what is currently in the news
     try:
-        t1 = TitleTrigger("election")
-        t2 = DescriptionTrigger("Trump")
-        t3 = DescriptionTrigger("Clinton")
+        t1 = TitleTrigger("Vietnam")
+        t2 = DescriptionTrigger("Trade")
+        t3 = DescriptionTrigger("Facebook")
         t4 = AndTrigger(t2, t3)
         triggerlist = [t1, t4]
 
         # Problem 11
         # TODO: After implementing read_trigger_config, uncomment this line 
-        # triggerlist = read_trigger_config('triggers.txt')
+#        triggerlist = read_trigger_config('triggers.txt')
         
         # HELPER CODE - you don't need to understand this!
         # Draws the popup window that displays the filtered stories
@@ -392,4 +420,3 @@ if __name__ == '__main__':
     t = threading.Thread(target=main_thread, args=(root,))
     t.start()
     root.mainloop()
-
