@@ -27,7 +27,7 @@ Hi, I am Sheikh MD Sazidul Islam. This is my Repository for the <a href="https:/
         <td>3</td>
         <td rowspan="8">Core Programming</td>
         <td><a href="https://www.edx.org/course/how-to-code-simple-data">How to Code - Simple Data</a></td>
-        <td></td>
+        <td><a href="./core-cs/core-programming/how-to-code/simple-data">how-to-code-simple-data</a></td>
     </tr>
     <tr>
         <td>4</td>
