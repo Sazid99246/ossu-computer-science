@@ -15,4 +15,12 @@
         <td>02</td>
         <td><a href="./problem-bank/htdf">HTDF</a></td>
     </tr>
+    <tr>
+        <td>03</td>
+        <td><a href="./problem-bank/htdd">HTDD</a></td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td><a href="./problem-bank/htdw">HTDW</a></td>
+    </tr>
 </table>
