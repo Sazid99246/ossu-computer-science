@@ -1,12 +1,12 @@
-file = input('Enter a file name: ')
-fhand = open(f'intro-cs\introduction-to-programming\python_for_everybody\main_book_exercises\chapter_08\{file}')
-emails = []
-for line in fhand:
-    if line.startswith("From"):
+fname = input('Enter a file name: ')
+fh = open(f'intro-cs\introduction-to-programming\python_for_everybody\main_book_exercises\chapter_08\{fname}')
+mails = []
+count = 0
+for line in fh:
+    if line.startswith("From:"):
         words = line.split(" ")
-        mail = words[1]
-        emails.append(mail)
+        mail = words[1].strip()    
+        print(mail)
+        count += 1
 
-for email in emails:
-    print(email.strip())
-print(f"There were {str(len(emails))} lines in the file with From as the first word")
+print("There were", str(count), "lines in the file with From as the first word")
