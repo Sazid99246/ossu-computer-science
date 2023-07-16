@@ -1,5 +1,5 @@
 word_dict = {}
-file = open("intro-cs\introduction-to-programming\python_for_everybody\main_book_exercises\chapter_09\words.txt")
+file = open("words.txt")
 for line in file:
     words = line.split(" ")
     for word in words:
