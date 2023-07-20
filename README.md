@@ -50,13 +50,13 @@ This repository tracks a user's progress through the OSSU Computer Science curri
 
 | Provider |                        Course                        | Completion Date | Proof | Repository |
 | :------: | :--------------------------------------------------: | :-------------: | :---: | :--------: |
-| py4e.com | [Python for Everybody](https://www.py4e.com/lessons) |        -        |   -   |[Python For Everybody](./python_for_everybody/)|
+| py4e.com | [Python for Everybody](https://www.py4e.com/lessons) | 20-07-2023 | [Cirtificate](https://coursera.org/share/01756e29e7768918a44b335233addd0a) | [Python For Everybody](./intro-cs/introduction-to-programming/python-for-everybody/)|
 
 ### Introduction to Computer Science
 
 | Provider |                                                                     Course                                                                     | Completion Date | Proof | Repository |
 | :------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :-------------: | :---: | :--------: |
-|   MITx   | [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) |        -        |   -   |     -      |
+|   MITx   | [Introduction to Computer Science and Programming using Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) |        -        |   -   | [MIT-6001](./intro-cs/introduction-to-computer-science/mit-6001/) |
 
 ## Core CS
 
