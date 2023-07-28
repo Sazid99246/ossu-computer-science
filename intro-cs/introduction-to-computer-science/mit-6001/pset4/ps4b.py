@@ -186,7 +186,7 @@ class PlaintextMessage(Message):
         '''
         return self.shift
 
-    def get_encryption_dict(self):
+    def get_encryption_dict(self, shift):
         '''
         Used to safely access a copy self.encryption_dict outside of the class
 
@@ -266,7 +266,7 @@ class CiphertextMessage(Message):
             decrypt_list.append(
                 (sum(decrypt_boolean), s, decrypt_text))
             #  delete the items in decrypt_boolean for the next shift value
-            del(decrypt_boolean[:])
+            del (decrypt_boolean[:])
             #  get the decrypted text with the highest number of valid words
             decrypt_best_shift = max(decrypt_list)
         #  return items in decrypt_best_shift starting from 1 to 3
