@@ -56,7 +56,7 @@ This repository tracks a user's progress through the OSSU Computer Science curri
 
 | Provider |                                                                     Course                                                                     | Completion Date | Proof | Repository |
 | :------: | :--------------------------------------------------------------------------------------------------------------------------------------------: | :-------------: | :---: | :--------: |
-|   MITx   | [Introduction to Computer Science and Programming using Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) |        -        |   -   | [MIT-6001](./intro-cs/introduction-to-computer-science/mit-6001/) |
+|   MITx   | [Introduction to Computer Science and Programming using Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) | 28-07-2023 |   -   | [MIT-6001](./intro-cs/introduction-to-computer-science/mit-6001/) |
 
 ## Core CS
 
@@ -64,7 +64,7 @@ This repository tracks a user's progress through the OSSU Computer Science curri
 
 |         Provider         |                                            Course                                            | Completion Date | Proof | Repository |
 | :----------------------: | :------------------------------------------------------------------------------------------: | :-------------: | :---: | :--------: |
-|           UBCx           |        [How to Code: Simple Data](https://www.edx.org/course/how-to-code-simple-data)        |        -        |   -   |     -      |
+|           UBCx           |        [How to Code: Simple Data](https://www.edx.org/course/how-to-code-simple-data)        |        -        |   -   | [How To Code Simple Data](./core-cs/core-programming/how-to-code/simple-data/) |
 |           UBCx           |       [How to Code: Complex Data](https://www.edx.org/course/how-to-code-complex-data)       |        -        |   -   |     -      |
 | University of Washington |    [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)     |        -        |   -   |     -      |
 | University of Washington | [Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) |        -        |   -   |     -      |
