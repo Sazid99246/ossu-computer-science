@@ -1,0 +1,46 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/10/Square/Main.jack
+
+// Derived from projects/09/Square/Main.jack.
+// This class is functionally the same as the original Main.class.
+// But, some changes were made, in order to test the parsing capability
+// of the syntax analyzer developed in project 10.
+// The changes are documented in the ////comments below.   
+
+/** Initializes a new Square Dance game and starts running it. */
+class Main {
+
+   //// The following static variable was added to the code, 
+   //// to check how the syntax analyzer handles static variables.
+   static boolean test;
+
+   function void main() {
+      var SquareGame game;
+      let game = SquareGame.new();
+      do game.run();
+      do game.dispose();
+      return;
+   }
+
+   //// The following function was added to the code, to check how the
+   //// syntax analyzer handles various language features that don't appear
+   //// in the original code.
+   function void test() { 
+      var int i, j;      
+      var String s;
+      var Array a;
+      if (false) {
+         let s = "string constant";
+         let s = null;
+         let a[1] = a[2];
+      }
+      else {              
+         let i = i * (-j);
+         let j = j / (-2);
+         let i = i | j;
+      }
+      return;
+   }
+}
